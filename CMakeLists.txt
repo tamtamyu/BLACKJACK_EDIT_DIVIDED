@@ -13,7 +13,6 @@ qt_add_executable(BLACKJACK_EDIT_DIVIDED
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-    ../BLACKJACK_divided_cpp_hpp/BlackjackGame.hpp
     BlackjackGame.h
     BlackjackWindow.h
     Card.h
