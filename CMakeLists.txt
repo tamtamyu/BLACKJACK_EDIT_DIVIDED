@@ -9,16 +9,16 @@ qt_standard_project_setup()
 
 qt_add_executable(BLACKJACK_EDIT_DIVIDED
     WIN32 MACOSX_BUNDLE
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
+    src/main.cpp
+    src/mainwindow.cpp
+    include/mainwindow.h
     mainwindow.ui
     ../BLACKJACK_divided_cpp_hpp/BlackjackGame.hpp
-    BlackjackGame.h
-    BlackjackWindow.h
-    Card.h
-    BlackjackWindow.cpp
-    BlackjackGame.cpp
+    include/BlackjackGame.h
+    include/BlackjackWindow.h
+    includeCard.h
+    src/BlackjackWindow.cpp
+    src/BlackjackGame.cpp
     resources.qrc
 
 )
