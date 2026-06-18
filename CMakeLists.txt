@@ -13,7 +13,7 @@ qt_add_executable(BLACKJACK_EDIT_DIVIDED
     src/main.cpp
     src/mainwindow.cpp
     include/mainwindow.h
-    mainwindow.ui
+    src/mainwindow.ui
     ../BLACKJACK_divided_cpp_hpp/BlackjackGame.hpp
     include/BlackjackGame.h
     include/BlackjackWindow.h
